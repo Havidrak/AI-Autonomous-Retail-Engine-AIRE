@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AIRE">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8faff" />
+      <stop offset="1" stop-color="#ebf1ff" />
+    </linearGradient>
+    <linearGradient id="mark" x1="18" y1="12" x2="46" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2a44c4" />
+      <stop offset="1" stop-color="#1731a8" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg)" />
+  <path
+    d="M16 48 31.5 16 40 32l6-10"
+    fill="none"
+    stroke="url(#mark)"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M16 48 28.5 40 35 46l7-14"
+    fill="none"
+    stroke="url(#mark)"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <circle cx="47" cy="20" r="5" fill="url(#mark)" />
+</svg>

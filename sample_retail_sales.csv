@@ -1,0 +1,361 @@
+date,product,category,quantity,sales,stock,customer_id,promotion,lead_time
+2025-01-01,Coffee,Grocery,15,180,100,DEMO-000,1,5
+2025-01-01,Notebook,Stationery,19,95,115,DEMO-001,1,5
+2025-01-01,Soap,Personal Care,23,184,130,DEMO-002,1,5
+2025-01-02,Coffee,Grocery,18,216,99,DEMO-001,0,5
+2025-01-02,Notebook,Stationery,22,110,114,DEMO-002,0,5
+2025-01-02,Soap,Personal Care,26,208,129,DEMO-003,0,5
+2025-01-03,Coffee,Grocery,19,228,98,DEMO-002,0,5
+2025-01-03,Notebook,Stationery,23,115,113,DEMO-003,0,5
+2025-01-03,Soap,Personal Care,27,216,128,DEMO-004,0,5
+2025-01-04,Coffee,Grocery,17,204,97,DEMO-003,0,5
+2025-01-04,Notebook,Stationery,21,105,112,DEMO-004,0,5
+2025-01-04,Soap,Personal Care,25,200,127,DEMO-005,0,5
+2025-01-05,Coffee,Grocery,13,156,96,DEMO-004,0,5
+2025-01-05,Notebook,Stationery,17,85,111,DEMO-005,0,5
+2025-01-05,Soap,Personal Care,21,168,126,DEMO-006,0,5
+2025-01-06,Coffee,Grocery,11,132,95,DEMO-005,0,5
+2025-01-06,Notebook,Stationery,15,75,110,DEMO-006,0,5
+2025-01-06,Soap,Personal Care,19,152,125,DEMO-007,0,5
+2025-01-07,Coffee,Grocery,12,144,94,DEMO-006,0,5
+2025-01-07,Notebook,Stationery,16,80,109,DEMO-007,0,5
+2025-01-07,Soap,Personal Care,20,160,124,DEMO-008,0,5
+2025-01-08,Coffee,Grocery,15,180,93,DEMO-007,0,5
+2025-01-08,Notebook,Stationery,19,95,108,DEMO-008,0,5
+2025-01-08,Soap,Personal Care,23,184,123,DEMO-009,0,5
+2025-01-09,Coffee,Grocery,19,228,92,DEMO-008,0,5
+2025-01-09,Notebook,Stationery,23,115,107,DEMO-009,0,5
+2025-01-09,Soap,Personal Care,27,216,122,DEMO-010,0,5
+2025-01-10,Coffee,Grocery,19,228,91,DEMO-009,0,5
+2025-01-10,Notebook,Stationery,23,115,106,DEMO-010,0,5
+2025-01-10,Soap,Personal Care,27,216,121,DEMO-011,0,5
+2025-01-11,Coffee,Grocery,17,204,90,DEMO-010,0,5
+2025-01-11,Notebook,Stationery,21,105,105,DEMO-011,0,5
+2025-01-11,Soap,Personal Care,25,200,120,DEMO-012,0,5
+2025-01-12,Coffee,Grocery,14,168,89,DEMO-011,0,5
+2025-01-12,Notebook,Stationery,18,90,104,DEMO-012,0,5
+2025-01-12,Soap,Personal Care,22,176,119,DEMO-013,0,5
+2025-01-13,Coffee,Grocery,12,144,88,DEMO-012,0,5
+2025-01-13,Notebook,Stationery,16,80,103,DEMO-013,0,5
+2025-01-13,Soap,Personal Care,20,160,118,DEMO-014,0,5
+2025-01-14,Coffee,Grocery,13,156,87,DEMO-013,0,5
+2025-01-14,Notebook,Stationery,17,85,102,DEMO-014,0,5
+2025-01-14,Soap,Personal Care,21,168,117,DEMO-015,0,5
+2025-01-15,Coffee,Grocery,16,192,86,DEMO-014,1,5
+2025-01-15,Notebook,Stationery,20,100,101,DEMO-015,1,5
+2025-01-15,Soap,Personal Care,24,192,116,DEMO-016,1,5
+2025-01-16,Coffee,Grocery,19,228,85,DEMO-015,0,5
+2025-01-16,Notebook,Stationery,23,115,100,DEMO-016,0,5
+2025-01-16,Soap,Personal Care,27,216,115,DEMO-017,0,5
+2025-01-17,Coffee,Grocery,20,240,84,DEMO-016,0,5
+2025-01-17,Notebook,Stationery,24,120,99,DEMO-017,0,5
+2025-01-17,Soap,Personal Care,28,224,114,DEMO-018,0,5
+2025-01-18,Coffee,Grocery,18,216,83,DEMO-017,0,5
+2025-01-18,Notebook,Stationery,22,110,98,DEMO-018,0,5
+2025-01-18,Soap,Personal Care,26,208,113,DEMO-019,0,5
+2025-01-19,Coffee,Grocery,14,168,82,DEMO-018,0,5
+2025-01-19,Notebook,Stationery,18,90,97,DEMO-019,0,5
+2025-01-19,Soap,Personal Care,22,176,112,DEMO-020,0,5
+2025-01-20,Coffee,Grocery,12,144,81,DEMO-019,0,5
+2025-01-20,Notebook,Stationery,16,80,96,DEMO-020,0,5
+2025-01-20,Soap,Personal Care,20,160,111,DEMO-021,0,5
+2025-01-21,Coffee,Grocery,13,156,100,DEMO-020,0,5
+2025-01-21,Notebook,Stationery,17,85,115,DEMO-021,0,5
+2025-01-21,Soap,Personal Care,21,168,130,DEMO-022,0,5
+2025-01-22,Coffee,Grocery,16,192,99,DEMO-021,0,5
+2025-01-22,Notebook,Stationery,20,100,114,DEMO-022,0,5
+2025-01-22,Soap,Personal Care,24,192,129,DEMO-023,0,5
+2025-01-23,Coffee,Grocery,19,228,98,DEMO-022,0,5
+2025-01-23,Notebook,Stationery,23,115,113,DEMO-023,0,5
+2025-01-23,Soap,Personal Care,27,216,128,DEMO-000,0,5
+2025-01-24,Coffee,Grocery,20,240,97,DEMO-023,0,5
+2025-01-24,Notebook,Stationery,24,120,112,DEMO-000,0,5
+2025-01-24,Soap,Personal Care,28,224,127,DEMO-001,0,5
+2025-01-25,Coffee,Grocery,18,216,96,DEMO-000,0,5
+2025-01-25,Notebook,Stationery,22,110,111,DEMO-001,0,5
+2025-01-25,Soap,Personal Care,26,208,126,DEMO-002,0,5
+2025-01-26,Coffee,Grocery,15,180,95,DEMO-001,0,5
+2025-01-26,Notebook,Stationery,19,95,110,DEMO-002,0,5
+2025-01-26,Soap,Personal Care,23,184,125,DEMO-003,0,5
+2025-01-27,Coffee,Grocery,12,144,94,DEMO-002,0,5
+2025-01-27,Notebook,Stationery,16,80,109,DEMO-003,0,5
+2025-01-27,Soap,Personal Care,20,160,124,DEMO-004,0,5
+2025-01-28,Coffee,Grocery,13,156,93,DEMO-003,0,5
+2025-01-28,Notebook,Stationery,17,85,108,DEMO-004,0,5
+2025-01-28,Soap,Personal Care,21,168,123,DEMO-005,0,5
+2025-01-29,Coffee,Grocery,16,192,92,DEMO-004,1,5
+2025-01-29,Notebook,Stationery,20,100,107,DEMO-005,1,5
+2025-01-29,Soap,Personal Care,24,192,122,DEMO-006,1,5
+2025-01-30,Coffee,Grocery,20,240,91,DEMO-005,0,5
+2025-01-30,Notebook,Stationery,24,120,106,DEMO-006,0,5
+2025-01-30,Soap,Personal Care,28,224,121,DEMO-007,0,5
+2025-01-31,Coffee,Grocery,20,240,90,DEMO-006,0,5
+2025-01-31,Notebook,Stationery,24,120,105,DEMO-007,0,5
+2025-01-31,Soap,Personal Care,28,224,120,DEMO-008,0,5
+2025-02-01,Coffee,Grocery,18,216,89,DEMO-007,0,5
+2025-02-01,Notebook,Stationery,22,110,104,DEMO-008,0,5
+2025-02-01,Soap,Personal Care,26,208,119,DEMO-009,0,5
+2025-02-02,Coffee,Grocery,15,180,88,DEMO-008,0,5
+2025-02-02,Notebook,Stationery,19,95,103,DEMO-009,0,5
+2025-02-02,Soap,Personal Care,23,184,118,DEMO-010,0,5
+2025-02-03,Coffee,Grocery,13,156,87,DEMO-009,0,5
+2025-02-03,Notebook,Stationery,17,85,102,DEMO-010,0,5
+2025-02-03,Soap,Personal Care,21,168,117,DEMO-011,0,5
+2025-02-04,Coffee,Grocery,14,168,86,DEMO-010,0,5
+2025-02-04,Notebook,Stationery,18,90,101,DEMO-011,0,5
+2025-02-04,Soap,Personal Care,22,176,116,DEMO-012,0,5
+2025-02-05,Coffee,Grocery,17,204,85,DEMO-011,0,5
+2025-02-05,Notebook,Stationery,21,105,100,DEMO-012,0,5
+2025-02-05,Soap,Personal Care,25,200,115,DEMO-013,0,5
+2025-02-06,Coffee,Grocery,20,240,84,DEMO-012,0,5
+2025-02-06,Notebook,Stationery,24,120,99,DEMO-013,0,5
+2025-02-06,Soap,Personal Care,28,224,114,DEMO-014,0,5
+2025-02-07,Coffee,Grocery,21,252,83,DEMO-013,0,5
+2025-02-07,Notebook,Stationery,25,125,98,DEMO-014,0,5
+2025-02-07,Soap,Personal Care,29,232,113,DEMO-015,0,5
+2025-02-08,Coffee,Grocery,19,228,82,DEMO-014,0,5
+2025-02-08,Notebook,Stationery,23,115,97,DEMO-015,0,5
+2025-02-08,Soap,Personal Care,27,216,112,DEMO-016,0,5
+2025-02-09,Coffee,Grocery,15,180,81,DEMO-015,0,5
+2025-02-09,Notebook,Stationery,19,95,96,DEMO-016,0,5
+2025-02-09,Soap,Personal Care,23,184,111,DEMO-017,0,5
+2025-02-10,Coffee,Grocery,13,156,100,DEMO-016,0,5
+2025-02-10,Notebook,Stationery,17,85,115,DEMO-017,0,5
+2025-02-10,Soap,Personal Care,21,168,130,DEMO-018,0,5
+2025-02-11,Coffee,Grocery,14,168,99,DEMO-017,0,5
+2025-02-11,Notebook,Stationery,18,90,114,DEMO-018,0,5
+2025-02-11,Soap,Personal Care,22,176,129,DEMO-019,0,5
+2025-02-12,Coffee,Grocery,17,204,98,DEMO-018,1,5
+2025-02-12,Notebook,Stationery,21,105,113,DEMO-019,1,5
+2025-02-12,Soap,Personal Care,25,200,128,DEMO-020,1,5
+2025-02-13,Coffee,Grocery,20,240,97,DEMO-019,0,5
+2025-02-13,Notebook,Stationery,24,120,112,DEMO-020,0,5
+2025-02-13,Soap,Personal Care,28,224,127,DEMO-021,0,5
+2025-02-14,Coffee,Grocery,21,252,96,DEMO-020,0,5
+2025-02-14,Notebook,Stationery,25,125,111,DEMO-021,0,5
+2025-02-14,Soap,Personal Care,29,232,126,DEMO-022,0,5
+2025-02-15,Coffee,Grocery,19,228,95,DEMO-021,0,5
+2025-02-15,Notebook,Stationery,23,115,110,DEMO-022,0,5
+2025-02-15,Soap,Personal Care,27,216,125,DEMO-023,0,5
+2025-02-16,Coffee,Grocery,16,192,94,DEMO-022,0,5
+2025-02-16,Notebook,Stationery,20,100,109,DEMO-023,0,5
+2025-02-16,Soap,Personal Care,24,192,124,DEMO-000,0,5
+2025-02-17,Coffee,Grocery,13,156,93,DEMO-023,0,5
+2025-02-17,Notebook,Stationery,17,85,108,DEMO-000,0,5
+2025-02-17,Soap,Personal Care,21,168,123,DEMO-001,0,5
+2025-02-18,Coffee,Grocery,14,168,92,DEMO-000,0,5
+2025-02-18,Notebook,Stationery,18,90,107,DEMO-001,0,5
+2025-02-18,Soap,Personal Care,22,176,122,DEMO-002,0,5
+2025-02-19,Coffee,Grocery,17,204,91,DEMO-001,0,5
+2025-02-19,Notebook,Stationery,21,105,106,DEMO-002,0,5
+2025-02-19,Soap,Personal Care,25,200,121,DEMO-003,0,5
+2025-02-20,Coffee,Grocery,21,252,90,DEMO-002,0,5
+2025-02-20,Notebook,Stationery,25,125,105,DEMO-003,0,5
+2025-02-20,Soap,Personal Care,29,232,120,DEMO-004,0,5
+2025-02-21,Coffee,Grocery,21,252,89,DEMO-003,0,5
+2025-02-21,Notebook,Stationery,25,125,104,DEMO-004,0,5
+2025-02-21,Soap,Personal Care,29,232,119,DEMO-005,0,5
+2025-02-22,Coffee,Grocery,19,228,88,DEMO-004,0,5
+2025-02-22,Notebook,Stationery,23,115,103,DEMO-005,0,5
+2025-02-22,Soap,Personal Care,27,216,118,DEMO-006,0,5
+2025-02-23,Coffee,Grocery,16,192,87,DEMO-005,0,5
+2025-02-23,Notebook,Stationery,20,100,102,DEMO-006,0,5
+2025-02-23,Soap,Personal Care,24,192,117,DEMO-007,0,5
+2025-02-24,Coffee,Grocery,14,168,86,DEMO-006,0,5
+2025-02-24,Notebook,Stationery,18,90,101,DEMO-007,0,5
+2025-02-24,Soap,Personal Care,22,176,116,DEMO-008,0,5
+2025-02-25,Coffee,Grocery,15,180,85,DEMO-007,0,5
+2025-02-25,Notebook,Stationery,19,95,100,DEMO-008,0,5
+2025-02-25,Soap,Personal Care,23,184,115,DEMO-009,0,5
+2025-02-26,Coffee,Grocery,18,216,84,DEMO-008,1,5
+2025-02-26,Notebook,Stationery,22,110,99,DEMO-009,1,5
+2025-02-26,Soap,Personal Care,26,208,114,DEMO-010,1,5
+2025-02-27,Coffee,Grocery,21,252,83,DEMO-009,0,5
+2025-02-27,Notebook,Stationery,25,125,98,DEMO-010,0,5
+2025-02-27,Soap,Personal Care,29,232,113,DEMO-011,0,5
+2025-02-28,Coffee,Grocery,22,264,82,DEMO-010,0,5
+2025-02-28,Notebook,Stationery,26,130,97,DEMO-011,0,5
+2025-02-28,Soap,Personal Care,30,240,112,DEMO-012,0,5
+2025-03-01,Coffee,Grocery,20,240,81,DEMO-011,0,5
+2025-03-01,Notebook,Stationery,24,120,96,DEMO-012,0,5
+2025-03-01,Soap,Personal Care,28,224,111,DEMO-013,0,5
+2025-03-02,Coffee,Grocery,16,192,100,DEMO-012,0,5
+2025-03-02,Notebook,Stationery,20,100,115,DEMO-013,0,5
+2025-03-02,Soap,Personal Care,24,192,130,DEMO-014,0,5
+2025-03-03,Coffee,Grocery,14,168,99,DEMO-013,0,5
+2025-03-03,Notebook,Stationery,18,90,114,DEMO-014,0,5
+2025-03-03,Soap,Personal Care,22,176,129,DEMO-015,0,5
+2025-03-04,Coffee,Grocery,15,180,98,DEMO-014,0,5
+2025-03-04,Notebook,Stationery,19,95,113,DEMO-015,0,5
+2025-03-04,Soap,Personal Care,23,184,128,DEMO-016,0,5
+2025-03-05,Coffee,Grocery,18,216,97,DEMO-015,0,5
+2025-03-05,Notebook,Stationery,22,110,112,DEMO-016,0,5
+2025-03-05,Soap,Personal Care,26,208,127,DEMO-017,0,5
+2025-03-06,Coffee,Grocery,21,252,96,DEMO-016,0,5
+2025-03-06,Notebook,Stationery,25,125,111,DEMO-017,0,5
+2025-03-06,Soap,Personal Care,29,232,126,DEMO-018,0,5
+2025-03-07,Coffee,Grocery,22,264,95,DEMO-017,0,5
+2025-03-07,Notebook,Stationery,26,130,110,DEMO-018,0,5
+2025-03-07,Soap,Personal Care,30,240,125,DEMO-019,0,5
+2025-03-08,Coffee,Grocery,20,240,94,DEMO-018,0,5
+2025-03-08,Notebook,Stationery,24,120,109,DEMO-019,0,5
+2025-03-08,Soap,Personal Care,28,224,124,DEMO-020,0,5
+2025-03-09,Coffee,Grocery,17,204,93,DEMO-019,0,5
+2025-03-09,Notebook,Stationery,21,105,108,DEMO-020,0,5
+2025-03-09,Soap,Personal Care,25,200,123,DEMO-021,0,5
+2025-03-10,Coffee,Grocery,15,180,92,DEMO-020,0,5
+2025-03-10,Notebook,Stationery,19,95,107,DEMO-021,0,5
+2025-03-10,Soap,Personal Care,23,184,122,DEMO-022,0,5
+2025-03-11,Coffee,Grocery,15,180,91,DEMO-021,0,5
+2025-03-11,Notebook,Stationery,19,95,106,DEMO-022,0,5
+2025-03-11,Soap,Personal Care,23,184,121,DEMO-023,0,5
+2025-03-12,Coffee,Grocery,18,216,90,DEMO-022,1,5
+2025-03-12,Notebook,Stationery,22,110,105,DEMO-023,1,5
+2025-03-12,Soap,Personal Care,26,208,120,DEMO-000,1,5
+2025-03-13,Coffee,Grocery,22,264,89,DEMO-023,0,5
+2025-03-13,Notebook,Stationery,26,130,104,DEMO-000,0,5
+2025-03-13,Soap,Personal Care,30,240,119,DEMO-001,0,5
+2025-03-14,Coffee,Grocery,22,264,88,DEMO-000,0,5
+2025-03-14,Notebook,Stationery,26,130,103,DEMO-001,0,5
+2025-03-14,Soap,Personal Care,30,240,118,DEMO-002,0,5
+2025-03-15,Coffee,Grocery,20,240,87,DEMO-001,0,5
+2025-03-15,Notebook,Stationery,24,120,102,DEMO-002,0,5
+2025-03-15,Soap,Personal Care,28,224,117,DEMO-003,0,5
+2025-03-16,Coffee,Grocery,17,204,86,DEMO-002,0,5
+2025-03-16,Notebook,Stationery,21,105,101,DEMO-003,0,5
+2025-03-16,Soap,Personal Care,25,200,116,DEMO-004,0,5
+2025-03-17,Coffee,Grocery,15,180,85,DEMO-003,0,5
+2025-03-17,Notebook,Stationery,19,95,100,DEMO-004,0,5
+2025-03-17,Soap,Personal Care,23,184,115,DEMO-005,0,5
+2025-03-18,Coffee,Grocery,16,192,84,DEMO-004,0,5
+2025-03-18,Notebook,Stationery,20,100,99,DEMO-005,0,5
+2025-03-18,Soap,Personal Care,24,192,114,DEMO-006,0,5
+2025-03-19,Coffee,Grocery,19,228,83,DEMO-005,0,5
+2025-03-19,Notebook,Stationery,23,115,98,DEMO-006,0,5
+2025-03-19,Soap,Personal Care,27,216,113,DEMO-007,0,5
+2025-03-20,Coffee,Grocery,22,264,82,DEMO-006,0,5
+2025-03-20,Notebook,Stationery,26,130,97,DEMO-007,0,5
+2025-03-20,Soap,Personal Care,30,240,112,DEMO-008,0,5
+2025-03-21,Coffee,Grocery,23,276,81,DEMO-007,0,5
+2025-03-21,Notebook,Stationery,27,135,96,DEMO-008,0,5
+2025-03-21,Soap,Personal Care,31,248,111,DEMO-009,0,5
+2025-03-22,Coffee,Grocery,21,252,100,DEMO-008,0,5
+2025-03-22,Notebook,Stationery,25,125,115,DEMO-009,0,5
+2025-03-22,Soap,Personal Care,29,232,130,DEMO-010,0,5
+2025-03-23,Coffee,Grocery,17,204,99,DEMO-009,0,5
+2025-03-23,Notebook,Stationery,21,105,114,DEMO-010,0,5
+2025-03-23,Soap,Personal Care,25,200,129,DEMO-011,0,5
+2025-03-24,Coffee,Grocery,15,180,98,DEMO-010,0,5
+2025-03-24,Notebook,Stationery,19,95,113,DEMO-011,0,5
+2025-03-24,Soap,Personal Care,23,184,128,DEMO-012,0,5
+2025-03-25,Coffee,Grocery,16,192,97,DEMO-011,0,5
+2025-03-25,Notebook,Stationery,20,100,112,DEMO-012,0,5
+2025-03-25,Soap,Personal Care,24,192,127,DEMO-013,0,5
+2025-03-26,Coffee,Grocery,19,228,96,DEMO-012,1,5
+2025-03-26,Notebook,Stationery,23,115,111,DEMO-013,1,5
+2025-03-26,Soap,Personal Care,27,216,126,DEMO-014,1,5
+2025-03-27,Coffee,Grocery,22,264,95,DEMO-013,0,5
+2025-03-27,Notebook,Stationery,26,130,110,DEMO-014,0,5
+2025-03-27,Soap,Personal Care,30,240,125,DEMO-015,0,5
+2025-03-28,Coffee,Grocery,23,276,94,DEMO-014,0,5
+2025-03-28,Notebook,Stationery,27,135,109,DEMO-015,0,5
+2025-03-28,Soap,Personal Care,31,248,124,DEMO-016,0,5
+2025-03-29,Coffee,Grocery,21,252,93,DEMO-015,0,5
+2025-03-29,Notebook,Stationery,25,125,108,DEMO-016,0,5
+2025-03-29,Soap,Personal Care,29,232,123,DEMO-017,0,5
+2025-03-30,Coffee,Grocery,18,216,92,DEMO-016,0,5
+2025-03-30,Notebook,Stationery,22,110,107,DEMO-017,0,5
+2025-03-30,Soap,Personal Care,26,208,122,DEMO-018,0,5
+2025-03-31,Coffee,Grocery,16,192,91,DEMO-017,0,5
+2025-03-31,Notebook,Stationery,20,100,106,DEMO-018,0,5
+2025-03-31,Soap,Personal Care,24,192,121,DEMO-019,0,5
+2025-04-01,Coffee,Grocery,16,192,90,DEMO-018,0,5
+2025-04-01,Notebook,Stationery,20,100,105,DEMO-019,0,5
+2025-04-01,Soap,Personal Care,24,192,120,DEMO-020,0,5
+2025-04-02,Coffee,Grocery,20,240,89,DEMO-019,0,5
+2025-04-02,Notebook,Stationery,24,120,104,DEMO-020,0,5
+2025-04-02,Soap,Personal Care,28,224,119,DEMO-021,0,5
+2025-04-03,Coffee,Grocery,23,276,88,DEMO-020,0,5
+2025-04-03,Notebook,Stationery,27,135,103,DEMO-021,0,5
+2025-04-03,Soap,Personal Care,31,248,118,DEMO-022,0,5
+2025-04-04,Coffee,Grocery,24,288,87,DEMO-021,0,5
+2025-04-04,Notebook,Stationery,28,140,102,DEMO-022,0,5
+2025-04-04,Soap,Personal Care,32,256,117,DEMO-023,0,5
+2025-04-05,Coffee,Grocery,21,252,86,DEMO-022,0,5
+2025-04-05,Notebook,Stationery,25,125,101,DEMO-023,0,5
+2025-04-05,Soap,Personal Care,29,232,116,DEMO-000,0,5
+2025-04-06,Coffee,Grocery,18,216,85,DEMO-023,0,5
+2025-04-06,Notebook,Stationery,22,110,100,DEMO-000,0,5
+2025-04-06,Soap,Personal Care,26,208,115,DEMO-001,0,5
+2025-04-07,Coffee,Grocery,16,192,84,DEMO-000,0,5
+2025-04-07,Notebook,Stationery,20,100,99,DEMO-001,0,5
+2025-04-07,Soap,Personal Care,24,192,114,DEMO-002,0,5
+2025-04-08,Coffee,Grocery,17,204,83,DEMO-001,0,5
+2025-04-08,Notebook,Stationery,21,105,98,DEMO-002,0,5
+2025-04-08,Soap,Personal Care,25,200,113,DEMO-003,0,5
+2025-04-09,Coffee,Grocery,20,240,82,DEMO-002,1,5
+2025-04-09,Notebook,Stationery,24,120,97,DEMO-003,1,5
+2025-04-09,Soap,Personal Care,28,224,112,DEMO-004,1,5
+2025-04-10,Coffee,Grocery,23,276,81,DEMO-003,0,5
+2025-04-10,Notebook,Stationery,27,135,96,DEMO-004,0,5
+2025-04-10,Soap,Personal Care,31,248,111,DEMO-005,0,5
+2025-04-11,Coffee,Grocery,24,288,100,DEMO-004,0,5
+2025-04-11,Notebook,Stationery,28,140,115,DEMO-005,0,5
+2025-04-11,Soap,Personal Care,32,256,130,DEMO-006,0,5
+2025-04-12,Coffee,Grocery,22,264,99,DEMO-005,0,5
+2025-04-12,Notebook,Stationery,26,130,114,DEMO-006,0,5
+2025-04-12,Soap,Personal Care,30,240,129,DEMO-007,0,5
+2025-04-13,Coffee,Grocery,18,216,98,DEMO-006,0,5
+2025-04-13,Notebook,Stationery,22,110,113,DEMO-007,0,5
+2025-04-13,Soap,Personal Care,26,208,128,DEMO-008,0,5
+2025-04-14,Coffee,Grocery,16,192,97,DEMO-007,0,5
+2025-04-14,Notebook,Stationery,20,100,112,DEMO-008,0,5
+2025-04-14,Soap,Personal Care,24,192,127,DEMO-009,0,5
+2025-04-15,Coffee,Grocery,17,204,96,DEMO-008,0,5
+2025-04-15,Notebook,Stationery,21,105,111,DEMO-009,0,5
+2025-04-15,Soap,Personal Care,25,200,126,DEMO-010,0,5
+2025-04-16,Coffee,Grocery,20,240,95,DEMO-009,0,5
+2025-04-16,Notebook,Stationery,24,120,110,DEMO-010,0,5
+2025-04-16,Soap,Personal Care,28,224,125,DEMO-011,0,5
+2025-04-17,Coffee,Grocery,23,276,94,DEMO-010,0,5
+2025-04-17,Notebook,Stationery,27,135,109,DEMO-011,0,5
+2025-04-17,Soap,Personal Care,31,248,124,DEMO-012,0,5
+2025-04-18,Coffee,Grocery,24,288,93,DEMO-011,0,5
+2025-04-18,Notebook,Stationery,28,140,108,DEMO-012,0,5
+2025-04-18,Soap,Personal Care,32,256,123,DEMO-013,0,5
+2025-04-19,Coffee,Grocery,22,264,92,DEMO-012,0,5
+2025-04-19,Notebook,Stationery,26,130,107,DEMO-013,0,5
+2025-04-19,Soap,Personal Care,30,240,122,DEMO-014,0,5
+2025-04-20,Coffee,Grocery,19,228,91,DEMO-013,0,5
+2025-04-20,Notebook,Stationery,23,115,106,DEMO-014,0,5
+2025-04-20,Soap,Personal Care,27,216,121,DEMO-015,0,5
+2025-04-21,Coffee,Grocery,17,204,90,DEMO-014,0,5
+2025-04-21,Notebook,Stationery,21,105,105,DEMO-015,0,5
+2025-04-21,Soap,Personal Care,25,200,120,DEMO-016,0,5
+2025-04-22,Coffee,Grocery,17,204,89,DEMO-015,0,5
+2025-04-22,Notebook,Stationery,21,105,104,DEMO-016,0,5
+2025-04-22,Soap,Personal Care,25,200,119,DEMO-017,0,5
+2025-04-23,Coffee,Grocery,21,252,88,DEMO-016,1,5
+2025-04-23,Notebook,Stationery,25,125,103,DEMO-017,1,5
+2025-04-23,Soap,Personal Care,29,232,118,DEMO-018,1,5
+2025-04-24,Coffee,Grocery,24,288,87,DEMO-017,0,5
+2025-04-24,Notebook,Stationery,28,140,102,DEMO-018,0,5
+2025-04-24,Soap,Personal Care,32,256,117,DEMO-019,0,5
+2025-04-25,Coffee,Grocery,25,300,86,DEMO-018,0,5
+2025-04-25,Notebook,Stationery,29,145,101,DEMO-019,0,5
+2025-04-25,Soap,Personal Care,33,264,116,DEMO-020,0,5
+2025-04-26,Coffee,Grocery,22,264,85,DEMO-019,0,5
+2025-04-26,Notebook,Stationery,26,130,100,DEMO-020,0,5
+2025-04-26,Soap,Personal Care,30,240,115,DEMO-021,0,5
+2025-04-27,Coffee,Grocery,19,228,84,DEMO-020,0,5
+2025-04-27,Notebook,Stationery,23,115,99,DEMO-021,0,5
+2025-04-27,Soap,Personal Care,27,216,114,DEMO-022,0,5
+2025-04-28,Coffee,Grocery,17,204,83,DEMO-021,0,5
+2025-04-28,Notebook,Stationery,21,105,98,DEMO-022,0,5
+2025-04-28,Soap,Personal Care,25,200,113,DEMO-023,0,5
+2025-04-29,Coffee,Grocery,18,216,82,DEMO-022,0,5
+2025-04-29,Notebook,Stationery,22,110,97,DEMO-023,0,5
+2025-04-29,Soap,Personal Care,26,208,112,DEMO-000,0,5
+2025-04-30,Coffee,Grocery,21,252,81,DEMO-023,0,5
+2025-04-30,Notebook,Stationery,25,125,96,DEMO-000,0,5
+2025-04-30,Soap,Personal Care,29,232,111,DEMO-001,0,5

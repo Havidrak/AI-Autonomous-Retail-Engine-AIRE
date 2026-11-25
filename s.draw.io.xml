@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="DFD Level 0">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- External Entities -->
+        <mxCell id="patient" value="PATIENT" style="rounded=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="doctor" value="DOCTOR" style="rounded=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="cashier" value="CASHIER" style="rounded=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="900" y="350" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Processes -->
+        <mxCell id="p1" value="1.0 Manage Appointment" style="rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="300" y="150" width="180" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="p2" value="2.0 Manage Consultation" style="rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="300" y="250" width="180" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="p3" value="3.0 Manage Prescription" style="rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="300" y="350" width="180" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="p4" value="4.0 Manage Payment" style="rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="300" y="450" width="180" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- Data Stores -->
+        <mxCell id="d1" value="D1 Appointment Records" style="shape=rectangle;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="600" y="150" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="d2" value="D2 Consultation Records" style="shape=rectangle;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="d3" value="D3 Prescription Records" style="shape=rectangle;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="600" y="350" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="d4" value="D4 Payment Records" style="shape=rectangle;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="600" y="450" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Connections -->
+        <mxCell edge="1" parent="1" source="patient" target="p1" value="Appointment Details">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell edge="1" parent="1" source="p1" target="patient" value="Appointment Confirmation">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell edge="1" parent="1" source="p1" target="doctor" value="Appointment Schedule">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell edge="1" parent="1" source="doctor" target="p2" value="Consultation Details">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell edge="1" parent="1" source="p2" target="doctor" value="Consultation Summary">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell edge="1" parent="1" source="p2" target="p3" value="Consultation Info">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell edge="1" parent="1" source="doctor" target="p3" value="Prescription Details">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell edge="1" parent="1" source="p3" target="patient" value="Prescription Information">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell edge="1" parent="1" source="p3" target="p4" value="Billing Details">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell edge="1" parent="1" source="patient" target="p4" value="Payment">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell edge="1" parent="1" source="p4" target="patient" value="Payment Receipt">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell edge="1" parent="1" source="p4" target="cashier" value="Billing Details">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell edge="1" parent="1" source="cashier" target="p4" value="Payment Confirmation">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

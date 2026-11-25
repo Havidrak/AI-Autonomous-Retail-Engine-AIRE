@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap');
+
+:root {
+  font-family:
+    'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  color: #27344d;
+  background: #f8f9ff;
+  line-height: 1.5;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  --border: #dfe6f4;
+  --panel: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    linear-gradient(180deg, #f9fbff 0%, #f3f7ff 100%);
+  overflow-x: hidden;
+}
+
+button,
+input,
+table {
+  font: inherit;
+}
+
+button {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    opacity 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+button:focus-visible {
+  outline: 3px solid rgba(47, 69, 234, 0.22);
+  outline-offset: 2px;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
